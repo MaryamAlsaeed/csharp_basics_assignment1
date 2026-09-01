@@ -19,6 +19,14 @@
             Console.WriteLine(b2);
 
             // -----------------------
-            }
+
+            //Question 2:
+            Console.WriteLine(b2.ToString());
+            Console.WriteLine(b2.Equals(b1));
+            Console.WriteLine(b2.GetHashCode());
+            Console.WriteLine(b2.GetType());
+
+            // -----------------------
         }
+    }
     }
