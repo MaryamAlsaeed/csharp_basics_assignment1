@@ -133,6 +133,11 @@
             Console.WriteLine(book?.title); // now it will print Untitled
 
             // -----------------------
+
+            //Question 15:
+            string? name = "Ahmed";
+            string confermedName = name!; // => tell the confermedName that i am sure name is not null
+            Console.WriteLine(confermedName);
         }
     }
 }
