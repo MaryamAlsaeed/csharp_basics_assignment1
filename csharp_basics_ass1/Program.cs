@@ -59,6 +59,13 @@
 
             // -----------------------
 
+            //Question 6:
+            double price = 49.99;
+            int explicitPrice = (int)price;
+
+
+            // -----------------------
+
 
         }
     }
