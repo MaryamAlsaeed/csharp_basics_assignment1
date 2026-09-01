@@ -111,6 +111,13 @@
             Console.WriteLine(year.Value); // => 2023
 
             // -----------------------
+
+            //Question 12:
+
+            string? reviewer = null;
+            Console.WriteLine(reviewer == null); // => true
+
+            // -----------------------
         }
     }
 }
