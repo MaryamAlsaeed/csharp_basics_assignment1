@@ -66,7 +66,11 @@
 
             // -----------------------
 
+            //Question 7:
+            string pagesText = "464";
+            int pagesInt = int.Parse(pagesText);
 
+            // -----------------------
         }
     }
 }
