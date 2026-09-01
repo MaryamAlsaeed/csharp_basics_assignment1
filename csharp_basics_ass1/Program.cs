@@ -52,6 +52,14 @@
             }
 
             // -----------------------
+
+            //Question 5:
+            int pagess = 300;
+            double implicitPages = pages;
+
+            // -----------------------
+
+
         }
     }
-    }
+}
