@@ -104,7 +104,13 @@
 
             // -----------------------
 
+            //Question 11:
+            int? year = null;
+            Console.WriteLine(year.HasValue); // => false
+            year = 2023;
+            Console.WriteLine(year.Value); // => 2023
 
+            // -----------------------
         }
     }
 }
