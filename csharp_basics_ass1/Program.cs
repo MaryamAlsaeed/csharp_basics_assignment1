@@ -124,6 +124,15 @@
             Console.WriteLine(book?.title); // to prevent null reference exception + also it will print nothing 
 
             // -----------------------
+
+            //Question 14:
+            Console.WriteLine(book?.title);
+            string? title = book?.title ?? "Untitled";
+            Console.WriteLine(title ?? "Untitled");
+            title ??= "Untitled"; // now we assigned a title when it is not null
+            Console.WriteLine(book?.title); // now it will print Untitled
+
+            // -----------------------
         }
     }
 }
