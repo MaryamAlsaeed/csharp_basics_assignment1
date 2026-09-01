@@ -34,6 +34,24 @@
             int pages = 464; // => we fixed by removing the double cotation marks
 
             // -----------------------
+
+            //Question 4:
+            try
+            {
+                int x = 10;
+                int y = 0;
+                Console.WriteLine(x / y);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero.");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
+            // -----------------------
         }
     }
     }
