@@ -27,6 +27,13 @@
             Console.WriteLine(b2.GetType());
 
             // -----------------------
+
+            //Question 3:
+            // this is a compilation error
+
+            int pages = 464; // => we fixed by removing the double cotation marks
+
+            // -----------------------
         }
     }
     }
