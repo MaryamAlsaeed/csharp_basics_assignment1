@@ -118,6 +118,12 @@
             Console.WriteLine(reviewer == null); // => true
 
             // -----------------------
+
+            //Question 13:
+            Book? book = null;
+            Console.WriteLine(book?.title); // to prevent null reference exception + also it will print nothing 
+
+            // -----------------------
         }
     }
 }
