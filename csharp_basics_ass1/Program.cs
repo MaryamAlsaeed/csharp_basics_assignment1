@@ -71,6 +71,22 @@
             int pagesInt = int.Parse(pagesText);
 
             // -----------------------
+
+            //Question 8:
+            string yearText = "2023";
+            int yearInt = int.Parse(yearText);
+
+            string badText = "abc";
+            if (int.TryParse(badText, out int badInt))
+            {
+                Console.WriteLine(badInt);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
+
+            // -----------------------
         }
     }
 }
