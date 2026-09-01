@@ -94,6 +94,17 @@
             Console.WriteLine(pagesString.GetType());
 
             // -----------------------
+
+            //Question 10:
+            int copies = 100;
+            object boxedCopies = copies; // => boxing
+            int unBoxedCopies = (int)boxedCopies; // => unboxing
+
+            Console.WriteLine($"boxedCopies: {boxedCopies}, unboxedCopies: {unBoxedCopies}");
+
+            // -----------------------
+
+
         }
     }
 }
