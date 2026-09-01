@@ -87,6 +87,13 @@
             }
 
             // -----------------------
+
+            //Question 9:
+            int pagesss = 464;
+            string pagesString = pagesss.ToString();
+            Console.WriteLine(pagesString.GetType());
+
+            // -----------------------
         }
     }
 }
